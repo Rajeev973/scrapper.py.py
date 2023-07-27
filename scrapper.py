@@ -30,7 +30,7 @@ def scrape_faculty_information(homepage_url):
 
 # Main function
 if __name__ == '__main__':
-    homepage_url = 'https://www.stevens.edu/school-engineering-science/faculty'
+    homepage_url = 'https://liu.edu/post/academics/Faculty/Faculty'
     faculty_data = scrape_faculty_information(homepage_url)
 
     csv_filename = 'faculty_info.csv'
