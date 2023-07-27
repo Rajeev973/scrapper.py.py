@@ -30,7 +30,7 @@ def scrape_faculty_information(homepage_url):
 
 # Main function
 if __name__ == '__main__':
-    homepage_url = 'https://online.pace.edu/graduate-programs/ms-in-computer-science/faculty/'
+    homepage_url = 'https://www.stevens.edu/school-engineering-science/faculty'
     faculty_data = scrape_faculty_information(homepage_url)
 
     csv_filename = 'faculty_info.csv'
